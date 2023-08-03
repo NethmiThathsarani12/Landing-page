@@ -10,7 +10,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background-image: url("../image/images.jpg");
+    background: url("../image/images.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -54,10 +54,11 @@
 }
 
 .navbar ul li a:hover{
-    background-color: #5d88d5;
+    background-color: #fff;
+    color: #000000;
 }
 .navbar h1{
-    color: #5d88d5;
+    color: #fff;
     font-size: 35px;
     font-weight: 500;
     text-transform: uppercase;
@@ -84,7 +85,7 @@
 }
 
 .content p{
-    font-size: 10px;
+    font-size: 15px;
     color: #fff;
     
 }
@@ -96,11 +97,14 @@
     display: inline-block;
     letter-spacing: 2px;
     padding: 12px 20px;
-    background-color: #5d88d5;
+    background-color: #b3b2b2;
+    border: 2px solid #fff;
     border-radius: 5px;
-    color: #fff;
+    color: #000000;
 }
 
 .content a:hover{
-    background-color: #2d88d5;
+    background-color: #000000;
+    color: #fff;
+    border: 2px solid #fff;
 }
